@@ -2,7 +2,7 @@
   "name": "react-basics-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iamibadd.github.io/React-Basics-2/",
+  "homepage": "https://iamibadd.github.io/React-Part-1/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
