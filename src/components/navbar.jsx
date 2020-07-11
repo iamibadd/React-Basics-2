@@ -26,6 +26,7 @@ const Navbar=({total_counters})=>{
         <nav className="navbar navbar-light bg-light">
             <a className="navbar-brand" href="#">
                 Navbar <span className="badge badge-pill badge-secondary">{total_counters}</span></a>
+            <h1 className="text-primary display-1">@iamibadd</h1>
         </nav>
     );
 }
