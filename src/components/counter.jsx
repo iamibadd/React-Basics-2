@@ -21,7 +21,7 @@ class Counter extends Component {
 
     render() {
         //to get rid of the 'this.props' or 'props' we use object destructuring, so the above can be done by
-        const {onIncrement,onReset,onDelete}=this.props
+        const {onIncrement, onReset, onDelete} = this.props
         return (<React.Fragment>
                 <h6>Hello React js! I am counter.jsx file.</h6>
                 {/*<img className="rounded-circle" src={this.state.imageURL} alt=""/>*/}

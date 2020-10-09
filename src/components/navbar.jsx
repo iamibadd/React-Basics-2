@@ -21,7 +21,7 @@ import React from 'react';
 //         );
 // }
 //to get rid of the 'this.props' or 'props' we use object destructuring, so the above can be done by
-const Navbar=({total_counters})=>{
+const Navbar = ({total_counters}) => {
     return (
         <nav className="navbar navbar-light bg-light">
             <a className="navbar-brand" href="#">

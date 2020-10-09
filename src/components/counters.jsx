@@ -5,7 +5,7 @@ export default class Counters extends Component {
 
     render() {
         //to get rid of the 'this.props' or 'props' we use object destructuring, so the above can be done by
-        const {counters,onIncrement,onDelete,onReset,onResetAll}=this.props
+        const {counters, onIncrement, onDelete, onReset, onResetAll} = this.props
         return (
             <div><h1>Counters.jx file</h1>
                 <button className="btn btn-warning" onClick={onResetAll}>Reset all</button>
