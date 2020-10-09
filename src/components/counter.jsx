@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class Counter extends Component {
-    //we can't use let var or const in while defining any variable or object or array in a class, they are used in class methods
+    //we can't use let var or const while defining any variable, object or an array in a class, they are used in class methods
     //state is conventional to use and state is kind of 'context' that we are passing to the screen
     //props vs state->props are public and can be used in any component, while state is private and is only accessed in it's own component
     //props are readonly and they can't be further changed or assigned. Changes can be done by assigning them into state portion.
